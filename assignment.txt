@@ -1,0 +1,33 @@
+# Code Assignment
+
+## Intro
+This assignment will be used as a discussion during a technical interview.
+Time constraints are part of software development and even though we don't expect a perfect solution, imagine your code to be on its way to production.
+If you have to make compromises, provide a README to briefly explain pros and cons of your approach, what considerations you would make for another iteration and in general what your 
+future colleagues might be interested in if they had to pick up your code.
+
+The primary values for the code we look for are: simplicity, readability, maintainability, testability. It should be easy to scan the code, and rather quickly understand what it’s doing. 
+Pay attention to naming. 
+
+## The Task
+The assignment is to implement a warehouse software. This software should hold articles, and the articles should contain an identification number, a name and available stock. 
+It should be possible to load articles into the software from a file, see the attached inventory.json.
+The warehouse software should also have products, products are made of different articles. Products should have a name, price and a list of articles of which they are made from with a quantity. 
+The products should also be loaded from a file, see the attached products.json.
+
+Sample products - products.json.
+Sample articles in inventory - inventory.json
+
+The warehouse should have the following functionality;
+* Get all products and quantity of each that is available with the current inventory.
+* Assess if it's possible to Remove(Sell) a product and from the inventory (actual removing from inventory is not required).
+
+## To do
+In order to tailor this assignment for this specific role, here are some specifications:
+
+- Code for just the backend.
+- Preferably use Typescript, NodeJS for the REST APIs.
+- Setting up database is not required, just read from the given json files, feel free to add more json files if you decide on a different data structure for database.
+- If time allows, add some test cases (not mandatory).
+- Add a README with clear instructions on how to setup and run the code.
+- Whatever can be finished in the given time is great, a fully-functional code is NOT a requirement. This is more for assessing the approach you take, and to act as a base for the technical discussion.
