@@ -1,5 +1,5 @@
 # ik-warehouse-assignment
-# Dott Node.js/TypeScript Backend Assignment
+# Node.js/TypeScript Warehouse Backend Assignment
 
 ## Task
 
